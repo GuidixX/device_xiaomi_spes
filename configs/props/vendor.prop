@@ -120,6 +120,11 @@ persist.vendor.qti.inputopts.enable=true
 persist.vendor.qti.inputopts.movetouchslop=0.6
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
+# Fingerprint
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.sensor_location=1080|930|150|local:4630946773257169537
+persist.vendor.fingerprint.sensor_modules=fpc,goodix
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
