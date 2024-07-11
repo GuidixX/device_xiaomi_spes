@@ -220,6 +220,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+# DisplayFeatures
+PRODUCT_PACKAGES += \
+    DisplayFeatures \
+    DisplayFeaturesOverlay
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
