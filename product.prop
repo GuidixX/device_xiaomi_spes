@@ -31,10 +31,19 @@ bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=false
 
 # Low memory killer daemon
-ro.lmk.log_stats=true
-ro.lmk.kill_heaviest_task=true
-ro.lmk.kill_timeout_ms=15
-ro.lmk.use_minfree_levels=true
+ro.lmk.critical_upgrade=false
+ro.lmk.downgrade_pressure=100
+ro.lmk.kill_heaviest_task=false
+ro.lmk.kill_timeout_ms=0
+ro.lmk.stall_limit_critical=40
+ro.lmk.upgrade_pressure=100
+ro.lmk.use_minfree_levels=false
+ro.Imk.psi_partial_stall_ms=70
+ro.Imk.psi_complete_stall_ms=700
+ro.Imk.thrashing_limit=100
+ro.Imk.thrashing_limit_decay=10
+ro.Imk.swap_util_max=100
+ro.Imk.swap_free_low_percentage=20
 
 # Display
 debug.sf.disable_backpressure=1
