@@ -21,6 +21,9 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Gapps
+TARGET_BUILD_GAPPS := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Overlay
