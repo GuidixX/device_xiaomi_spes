@@ -12,7 +12,11 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 ro.bluetooth.wipower=false
 
 # Blur
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+ro.launcher.blur.appLauncher=0
 ro.launcher.blur.appLaunch=0
+persist.sys.sf.enable_blurs=1
 
 # Camera
 camera.disable_zsl_mode=1
